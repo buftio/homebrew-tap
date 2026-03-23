@@ -1,6 +1,6 @@
 # buftio Homebrew Tap
 
-Homebrew tap for macOS apps published by buftio.
+This is my Homebrew tap for macOS apps I publish.
 
 Install the tap:
 
@@ -18,5 +18,5 @@ Currently available:
 
 - `tairi` - a scrollable, spatial terminal workspace
 
-Each cask lives under [`Casks/`](Casks) and is updated from the release
+Each cask lives under [`Casks/`](Casks). I update them from the release
 automation in the corresponding app repository.
