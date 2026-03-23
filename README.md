@@ -1,24 +1,22 @@
-# Homebrew Tap for tairi
+# buftio Homebrew Tap
 
-Install:
+Homebrew tap for macOS apps published by buftio.
+
+Install the tap:
 
 ```sh
 brew tap buftio/tap
+```
+
+Install a cask:
+
+```sh
 brew install --cask tairi
 ```
 
-Upgrade:
+Currently available:
 
-```sh
-brew upgrade --cask tairi
-```
+- `tairi` - a scrollable, spatial terminal workspace
 
-This tap publishes the Homebrew cask for [tairi](https://github.com/buftio/tairi).
-Releases are sourced from GitHub Releases in the main app repository.
-
-Current requirements:
-
-- Apple Silicon
-- macOS 14.0 or newer
-
-The cask is generated from the release automation in the main repository.
+Each cask lives under [`Casks/`](Casks) and is updated from the release
+automation in the corresponding app repository.
