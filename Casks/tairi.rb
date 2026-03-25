@@ -1,6 +1,6 @@
 cask "tairi" do
-  version "0.9.7"
-  sha256 "3104b39b780ce15a2ba3a849bb7c2c704566cae615095152733df79be930d139"
+  version "0.9.8"
+  sha256 "53ef8eacf97f0912a7d291cc7c700ca25ecb591ab7584fda02dfca9195f4461c"
 
   url "https://github.com/buftio/tairi/releases/download/v#{version}/tairi-#{version}-macos-arm64.dmg"
   name "tairi"
