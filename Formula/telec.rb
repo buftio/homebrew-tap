@@ -1,7 +1,7 @@
 class Telec < Formula
   desc "Scriptable Telegram CLI on top of TDLib"
   homepage "https://github.com/buftio/telec"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   livecheck do
@@ -13,15 +13,15 @@ class Telec < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/buftio/telec/releases/download/v0.1.3/telec-v0.1.3-darwin-arm64.tar.gz"
-      sha256 "73cbf445ea5939391e8abfc5c2b2284882cbca29431a87964697756847e2c8d8"
+      url "https://github.com/buftio/telec/releases/download/v0.1.4/telec-v0.1.4-darwin-arm64.tar.gz"
+      sha256 "2055743bba212b12a87b205d9b9087bc3d8f84d7fec21d5dcdd2ffdcdb15035e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/buftio/telec/releases/download/v0.1.3/telec-v0.1.3-linux-x64.tar.gz"
-      sha256 "f2dc3f659885cf6364bb1c26865a019d06cda7cf3a13f71bc5030af5552bfc6d"
+      url "https://github.com/buftio/telec/releases/download/v0.1.4/telec-v0.1.4-linux-x64.tar.gz"
+      sha256 "755979af5f1ff178cad7fe5b27e990bcd44391554965930734fe8497dba69a9c"
     end
   end
 
